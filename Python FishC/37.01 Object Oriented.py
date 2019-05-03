@@ -40,3 +40,5 @@ list.append(3.14)
 list.append(6.18)
 list.append(2.71)
 print(list)
+
+## Polymorphic
