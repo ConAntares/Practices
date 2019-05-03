@@ -1,6 +1,0 @@
-#### Object
-
-"""
-{Properties} + {Methods} = Object
-"""
-
