@@ -1,0 +1,2 @@
+####  Isinstance(object,classinfo)
+
