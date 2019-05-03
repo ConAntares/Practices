@@ -42,3 +42,18 @@ list.append(2.71)
 print(list)
 
 ## Polymorphic
+
+class A:
+    def fun(self):
+        print("A")
+
+class B:
+    def fun(self):
+        print("B")
+
+a = A()
+b = B()
+a.fun()
+    # A
+b.fun()
+    # B
