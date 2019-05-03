@@ -24,5 +24,5 @@ class Sub(Parent):
     def hello(self):
         print("Sub Class")
 s = Sub()
-s.hello()\
+s.hello()
     # Sub Class
