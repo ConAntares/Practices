@@ -13,6 +13,9 @@ class Bind:
 
 exam = Bind()
 print(exam.__dict__)            # {}
-print(Bind.__dict__)            # {'__module__': '__main__', 'set_bind': <function Bind.set_bind at 0x0000017E89B552F0>, 'print_bind': <function Bind.print_bind at 0x0000017E89B55378>, '__dict__': <attribute '__dict__' of 'Bind' objects>, '__weakref__': <attribute '__weakref__' of 'Bind' objects>, '__doc__': None}
+print(Bind.__dict__)            # {'__module__': '__main__', 'set_XY': <function Bind.set_XY at 0x000001D49B1152F0>, 'print_XY': <function Bind.print_XY at 0x000001D49B115378>, '__dict__': <attribute '__dict__' of 'Bind' objects>, '__weakref__': <attribute '__weakref__' of 'Bind' objects>, '__doc__': None}
+
 exam.set_XY(4,5)
 print(exam.__dict__)            # {'x': 4, 'y': 5}
+print(Bind.__dict__)            # {'__module__': '__main__', 'set_XY': <function Bind.set_XY at 0x000001D49B1152F0>, 'print_XY': <function Bind.print_XY at 0x000001D49B115378>, '__dict__': <attribute '__dict__' of 'Bind' objects>, '__weakref__': <attribute '__weakref__' of 'Bind' objects>, '__doc__': None}
+
