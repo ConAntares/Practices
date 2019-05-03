@@ -1,4 +1,6 @@
-#### issubclass(class classinfo)
+#### Issubclass
+
+## issubclass(class classinfo)
 
 class A:
     pass
