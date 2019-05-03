@@ -1,0 +1,11 @@
+primitive type Float16  <: AbstractFloat 16 end
+primitive type Float32  <: AbstractFloat 32 end
+primitive type Float64  <: AbstractFloat 64 end
+primitive type Bool     <: Integer        8 end
+primitive type char     <: AbstractChar  32 end
+primitive type Int8     <: Signed         8 end
+primitive type Uint8    <: Unsigned       8 end
+primitive type Int16    <: Signed        16 end
+primitive type Uint16   <: Unsigned      16 end
+primitive type Int32    <: Signed        32 end
+primitive type Uint32   <: Unsigned      32 end
