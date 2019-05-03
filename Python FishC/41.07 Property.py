@@ -26,4 +26,3 @@ print(c.x)              # 16
 del c.x
 re = getattr(c,'x',"The property you are accessing does not exist.")
 print(re)               # The property you are accessing does not exist.
-
