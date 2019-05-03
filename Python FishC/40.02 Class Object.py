@@ -17,3 +17,10 @@ C.count += 100
 print(a.count)      # 100
 print(c.count)      # 10
 print(C.count)      # 100
+
+class D:
+    def x(self):
+        print("X-man!")
+
+d = D()
+d.x()               # X-man!
