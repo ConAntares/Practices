@@ -15,3 +15,4 @@ c = C()
 c.Foo1()
     # Foo1 is under Base1
 c.Foo2()
+    # Foo2 is under Base2
