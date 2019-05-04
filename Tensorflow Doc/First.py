@@ -4,4 +4,4 @@ import tensorflow as tf
 
 hello = tf.constant("Hello, World!")
 sess  = tf.Session()
-print(sess.run(hello))          # b'Hello, World!'
+print(sess.run(hello))          # 'Hello, World!'
