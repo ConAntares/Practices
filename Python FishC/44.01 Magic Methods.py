@@ -72,5 +72,12 @@ class NInt(int):
 a = NInt(5)
 b = NInt(3)
 print(a + b)        # 8
-print(b + 1)        # 4
-print(1 + b)        # 2
+print(b + 1)        # 4 = b + 1
+print(1 + b)        # 2 = b - 1
+
+class NIntP(int):
+    def __rsub__(self,other):
+        return int.__sub__(self,other)
+
+a = NIntP(5)
+print(3 - a)        # 2
