@@ -55,4 +55,3 @@ a = Try_int(4)
 b = Try_int(6)
 print(a + b)                        # 24
 print(a * b)                        # 10
-
