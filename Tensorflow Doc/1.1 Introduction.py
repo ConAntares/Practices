@@ -23,7 +23,7 @@ init = tf.initialize_all_variables()
 sess = tf.Session()
 sess.run(init)
 
-# Fitting plane
+# Fitting Plane
 for step in range(0, 201):
     sess.run(train)
     if step % 20 == 0:
