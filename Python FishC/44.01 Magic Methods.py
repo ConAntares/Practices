@@ -80,4 +80,4 @@ class NIntP(int):
         return int.__sub__(self,other)
 
 a = NIntP(5)
-print(3 - a)        # 2
+print(3 - a)        # 2 = a - 3
