@@ -8,6 +8,10 @@ int main()
     int value   = 0;
     while (std::cin >> value)
         sum = sum + value;
-    std::cout << "Sum is " << sum << std::endl;
+        std::cout << "Sum is " << sum << std::endl;
     return 0;
 }
+
+/*
+End-of-file character: EOF
+*/
