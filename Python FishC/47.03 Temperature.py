@@ -1,7 +1,7 @@
 #### Temperature
 
 class Celsius:
-    def __init__(self,value = 26.0):
+    def __init__(self, value = 26.0):
         self.value = float(value)
     def __get__(self, instance, owner):
         return self.value
@@ -23,3 +23,4 @@ temp.cel = 30
 print(temp.fah)     # 86.0
 temp.fah = 100
 print(temp.cel)     # 37.77777777777778
+
