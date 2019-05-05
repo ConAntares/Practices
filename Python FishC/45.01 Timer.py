@@ -48,4 +48,3 @@ Start timing.
 The time interval is 1 minute(s).-50 second(s).
 Stop timing.
 """
-        
