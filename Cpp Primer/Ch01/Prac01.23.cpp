@@ -1,4 +1,4 @@
-/* Member  Function */
+/* Practice 1.23 */
 
 #include <iostream>
 #include"Sales_item.h"

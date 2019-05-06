@@ -1,4 +1,4 @@
-/* Class Add */
+/* Practice 1.22 */
 
 #include <iostream>
 #include"Sales_item.h"
