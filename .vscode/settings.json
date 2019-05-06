@@ -52,6 +52,20 @@
         "xtr1common": "cpp",
         "xutility": "cpp",
         "set": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "bitset": "cpp",
+        "cctype": "cpp",
+        "forward_list": "cpp",
+        "fstream": "cpp",
+        "iterator": "cpp",
+        "locale": "cpp",
+        "map": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "regex": "cpp",
+        "sstream": "cpp",
+        "stack": "cpp",
+        "xlocbuf": "cpp",
+        "xlocmes": "cpp"
     }
 }
