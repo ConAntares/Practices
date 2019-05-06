@@ -27,7 +27,8 @@
  *     Fax: (201) 236-3290
 */ 
 
-/* This file defines the Sales_item class used in chapter 1.
+/* 
+ * This file defines the Sales_item class used in chapter 1.
  * The code used in this file will be explained in
  * Chapter 7 (Classes) and Chapter 14 (Overloaded Operators)
  * Readers shouldn't try to understand the code in this file
