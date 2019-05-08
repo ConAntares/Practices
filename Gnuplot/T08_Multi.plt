@@ -2,7 +2,7 @@
 
 set termoption enhanced
 
-set title   "Title" font "CMU-Serif, 18"
+set title   "Title" font "Serif, 18"
 set xlabel  "Month"
 set ylabel  "Precipitation (mm)"
 set xrange  [0.5: 12.5]

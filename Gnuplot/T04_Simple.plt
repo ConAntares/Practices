@@ -2,14 +2,15 @@
 
 set sample 512
 
-set title   ("Hello, World!")
-set xlabel  ("X")
-set ylabel  ("Y")
-unset key
-set xrange  [-2*pi:2*pi]
-set xtics   ("-2π"-2*pi,"-π"-pi,"0"0,"π"pi,"2π"2*pi,)
+set title   ("Hello, World!")   font "CMU-Serif"
+set xlabel  ("x")               font "CMU-Serif"
+set ylabel  ("y = sin(4x)")     font "CMU-Serif"
+set key     font "CMU-Serif"
+set xrange  [-2.0*pi:2.0*pi]
+set yrange  [-1.5:1.5]
 
-set ytics   (-1, -0.5, 0, 0.5, 1)
+set xtics   font "CMU-Serif"
+set ytics   font "CMU-Serif"
 
 plot sin(4*x)
 
