@@ -1,5 +1,6 @@
 #### Enhanced
 
+# set terminal Enhanced
 set title   ("Title^@U_D")          font "CMU-Serif,16"
 set xlabel  ("{/:Italic x}")        font "CMU-Serif,14"
 set ylabel  ("{/:Italic y}")        font "CMU-Serif,14"
@@ -12,4 +13,4 @@ set sample 512
 
 plot sin(4*x)
 
-pause (-1)
+# pause (-1)
