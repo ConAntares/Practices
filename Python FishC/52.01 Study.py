@@ -58,7 +58,12 @@ re = dir(timeit)
 print(re)
     # ['Timer', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_globals', 'default_number', 'default_repeat', 'default_timer', 'dummy_src_name', 'gc', 'itertools', 'main', 'reindent', 'repeat', 'sys', 'template', 'time', 'timeit']
 
-re = timeit.__all__
+re = timeit.__all__ # from timeit import *
 print(re)
     # ['Timer', 'timeit', 'repeat', 'default_timer']
 
+re = timeit.__file__
+print(re)
+    # C:\Python\Python37\lib\timeit.py
+
+help(timeit)
