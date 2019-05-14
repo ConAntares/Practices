@@ -60,6 +60,28 @@ re = tfs.run(op4, feed_dict={p1:[2.0,3.0,4.0], p2:[3.0,4.0,5.0]})
 print(r"tfs.run(op4, feed_dict={p1:[2.0,3.0,4.0], p2:[3.0,4.0,5.0]}):", re)
     # tfs.run(op4, feed_dict={p1:[2.0,3.0,4.0], p2:[3.0,4.0,5.0]}): [ 6. 12. 20.]
 
+## Variable
+# tf.placeholder 
+"""
+tf.placeholder defines input data that does not change over time
+tf.placeholder does not need an initial value at the time of definition
+"""
+# tf.Variable
+"""
+tf.Variable defines variable values that are modified over time
+tf.Variable needs an initial value at the time of definition
+"""
+
+# y = Wx + B
+W = tf.Variable([0.3], tf.float32)  # W = [0.3]
+B = tf.Variable([-0.3],tf.float32)  # B = [-0.3]
+x = tf.placeholder(tf.float32)
+y = tf.placeholder(tf.float64)
+y = W*x + B
+print("W:", W)                      # W: <tf.Variable 'Variable:0' shape=(1,) dtype=float32_ref>
+print("B:", B)                      # B: <tf.Variable 'Variable_1:0' shape=(1,) dtype=float32_ref>
+print("x:", x)                      # x: Tensor("Placeholder_2:0", dtype=float32)
+print("y:", y)                      # y: Tensor("add_1:0", dtype=float32)
 
 ## Tensors:
 """

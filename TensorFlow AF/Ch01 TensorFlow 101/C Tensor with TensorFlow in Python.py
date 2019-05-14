@@ -50,3 +50,21 @@ A3 = np.array([[[3.14,1.59,2.65,3.58],[2.71,8.28,1.82,8.45],[0.61,8.03,3.98,8.74
                [[1.00,1.01,1.02,1.03],[6.62,6.07,0.15,0.81],[1.05,4.57,1.80,0.13]]])
 print(A3.shape)                 # (2, 3, 4)
 print(A3.dtype)                 # float64
+T3 = tf.convert_to_tensor(A3, dtype=tf.float64)
+re = tfs.run(T3)
+print(T3)                       # Tensor("Const_3:0", shape=(2, 3, 4), dtype=float64)
+print(T3[0,0,0])                # Tensor("strided_slice_6:0", shape=(), dtype=float64)
+print(T3[0,0,1])                # Tensor("strided_slice_7:0", shape=(), dtype=float64)
+print(T3[0,1,0])                # Tensor("strided_slice_8:0", shape=(), dtype=float64)
+print(T3[0,1,1])                # Tensor("strided_slice_9:0", shape=(), dtype=float64)
+print(T3[1,0,0])                # Tensor("strided_slice_10:0", shape=(), dtype=float64)
+print(T3[1,0,1])                # Tensor("strided_slice_11:0", shape=(), dtype=float64)
+print(T3[1,1,0])                # Tensor("strided_slice_12:0", shape=(), dtype=float64)
+print(T3[1,1,1])                # Tensor("strided_slice_13:0", shape=(), dtype=float64)
+print(re)
+    # [[[3.14 1.59 2.65 3.58]
+    #   [2.71 8.28 1.82 8.45]
+    #   [0.61 8.03 3.98 8.74]]
+    #  [[1.   1.01 1.02 1.03]
+    #   [6.62 6.07 0.15 0.81]
+    #   [1.05 4.57 1.8  0.13]]]
