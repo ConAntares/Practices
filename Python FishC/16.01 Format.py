@@ -1,13 +1,13 @@
 #### Format
 
-str = "{0} live {1}.{2}".format("I","FishC","com")
-print(str)                              # I live FishC.com
+str = "{0} love {1}.{2}".format("I","FishC","com")
+print(str)                              # I love FishC.com
 
-str = "{a} live {b}.{c}".format(a="I",b="FishC",c="com")
-print(str)                              # I live FishC.com
+str = "{a} love {b}.{c}".format(a="I",b="FishC",c="com")
+print(str)                              # I love FishC.com
 
-str = "{0} live {a}.{b}".format("I",a="FishC",b="com")
-print(str)                              # I live FishC.com
+str = "{0} love {a}.{b}".format("I",a="FishC",b="com")
+print(str)                              # I love FishC.com
 
 str = "{0:.1f}{1}".format(27.658,' GB')
 print(str)                              # 27.7 GB
