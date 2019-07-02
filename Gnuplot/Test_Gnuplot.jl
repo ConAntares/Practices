@@ -2,12 +2,12 @@
 
 using Gnuplot
 
-x = [1,2]
+X = [1,2]
 
 @gp(
     "set title 'Title'  font 'CMU-Serif'", 
     "set key            font 'CMU-Serif'", 
     "set grid", 
     "set xrange[-2*pi:2*pi]",
-    "plot sin(4*x)"
+    "plot sin(4*x), x"
 )
