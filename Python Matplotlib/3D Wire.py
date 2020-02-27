@@ -60,7 +60,7 @@ ax.set_axis_on()
 
 ## Output
 
-fig.savefig("3D Wire.pdf", dpi=1080)
+# fig.savefig("3D Wire.pdf", dpi=1080)
 plt.show()
 
 ## More Information
