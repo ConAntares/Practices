@@ -1,5 +1,7 @@
 #### Descriptor
 
+import numpy as np
+
 ## Special Types
 """
 __get__(self, instance, owner)

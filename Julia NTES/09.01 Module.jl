@@ -1,5 +1,7 @@
 ## Module
 
+using Dates
+
 module myModule
 
 export mySquare, myAbs
